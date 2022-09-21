@@ -1,6 +1,6 @@
 body {
     background: black;
-    color:#3a3a3a;
+    color:#9a9696;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font: size 15px;
     margin:0px;
@@ -94,7 +94,8 @@ padding: 20px 30px;
 
 }
 .about ol {
-    border-left: 5px solid #002052;
+    border-left: 5px solid #133c7a;
+    border-right: 5px solid #133c7a;
     margin: 30px 0;
     padding: 0 40px;
 }
@@ -104,7 +105,7 @@ padding: 20px 30px;
     line-height:30px;
 }
 .about strong {
-    color:#3a3a3a;
+    color:#a09d9d;
 }
 .footer {
     background: #07101f;
