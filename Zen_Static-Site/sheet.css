@@ -1,0 +1,94 @@
+body{
+    background:#ebccb7;
+    color:white;
+    font-size:18px;
+    }
+table, th, td{
+    border: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px;
+    width:30vw;
+}
+.center {
+    margin-left:auto;
+    margin-right: auto;
+}
+ul, li{
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase; 
+    display: inline-block;  
+}
+a:link {
+    color:teal;
+}
+a:visited {
+    color: rgb(209, 155, 209);
+}
+
+a:hover {
+    color:yellowgreen;
+}
+a:active{
+    color:goldenrod;
+}
+.headingone{
+    text-decoration: dashed;
+}
+.first {
+    color:beige;
+    font-size:20px;
+    text-indent: 25px;
+}
+span {
+    color:goldenrod;
+    text-transform: uppercase;
+}
+.moreinfo {
+    color:beige
+}
+.mindfulness {
+    font-size:30px;
+}
+
+.mantra {
+    font-size: 23px;
+    text-align: center;
+    color:red;
+    border: solid 2px seagreen;
+    border-radius: 10px;
+    border-block: block; 
+
+}
+.mantras {
+    text-indent: 15px;
+    text-transform: uppercase;
+    text-decoration:underline;
+    text-align:center;
+}
+.mindfulheading {
+    border: 1px dashed seagreen;
+    border-radius: 70px;
+    text-align:center;
+}
+.physical {
+    color:beige;
+    font-size:20px;
+}
+.goals {
+    color:teal;
+    font-size:20px;
+}
+.goal {
+    font-size:50px;
+    text-align:center;
+    color:red;
+}
+.mindfulnesslist ul, li{
+    
+    color:aquamarine
+}
+p {
+    color:peru
+}
