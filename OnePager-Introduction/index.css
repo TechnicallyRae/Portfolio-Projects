@@ -1,0 +1,156 @@
+body{
+    /* background:scroll; */
+    color:white;
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+   align-items: center;
+
+}
+.header {
+    border-color: lavenderblush;
+    border-width: 2px;
+    border-style: solid;
+   border-radius: 25px;
+   padding: 10px;
+   width: 70%;
+   height: 550px;
+   margin-left: -205px;
+   content: center;
+   box-shadow: 2px 2px lightseagreen;
+   text-align: right;
+   background-image: url(images/delicate-flowers.jpeg);
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.72;
+   font-size: 35px;
+   font-family: fantasy;
+   z-index: 6;
+}
+   
+
+/*.about-me 
+    border: 2px solid lightcyan;
+    width: ;
+    content: center;
+    padding: 5px;
+    margin: auto;
+    }*/
+.image:hover{
+    opacity: 0.75;
+}
+li{
+float: right;
+list-style: none;
+margin:0px;
+padding:5px;
+position: relative;
+/* display: block; */
+text-decoration: none;
+z-index: 11;
+}
+nav{
+    margin:10px 10px;
+}
+
+    
+a:link{
+    color: rgba(78, 208, 165, 0.734);
+}
+a:visited {
+    color:red;
+}
+li a:active{
+    color:green;
+}
+a:hover{
+    color: darksalmon;
+    text-transform: uppercase;
+}
+table , th, td{
+    border: 2.5px solid lavenderblush;
+    border-top-left-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    border-collapse: collapse;
+    font-size: 25px;
+    width: 50%;
+    margin:25%;
+    
+}
+.table {
+    border-radius: 25px;
+}
+th {
+    color:lightyellow;
+    text-transform: uppercase;
+
+}
+.contact {
+    font-style: italic;
+    text-align: center;
+}
+.contact-page{
+    background-image: url(images/delicate-flowers.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+.about-me {
+    border: 2px solid lightslategray;
+    /* position: absolute; */
+    padding: 5px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius:10px;
+    border-top-left-radius:60px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    box-shadow: 1px -1px 1px 1px goldenrod;
+    /* width: 155%; */
+    width: 80%;
+    height: auto;
+    margin-left: 250px;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    font-size: 24.5px;
+    color:darkgreen;
+
+
+}
+.about-info {
+    color:darkgreen;
+}
+.about {
+    font-family: fantasy;
+    color:white;
+}
+.container {
+    /*height: 250px;
+    width: 250px;*/
+    position: absolute;
+    margin:-30px;
+    margin-left:300px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+.right-image {
+    /* float: ; */
+    opacity:5;
+    width:100px;
+    height:100px;
+    /* position: absolute; */
+    margin-left: 130px;
+}
+/* .firstdiv{ */
+    /* .right-images { */
+        /* float: right ;
+        width:400px;
+        height: 200px;
+        /* position: absolute; */
+        /* margin-left: 850px;
+        left: 0px;
+        opacity: .75; */
+    /* } */ 
